@@ -8,5 +8,13 @@
 }
 
 .add-button {
-    background-color: cadetblue;
+    background-color: azure;
+    width: 45px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: grey;
 }
