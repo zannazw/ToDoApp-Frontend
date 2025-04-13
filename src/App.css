@@ -1,0 +1,12 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    width: auto;
+    height: 80px;
+}
+
+.add-button {
+    background-color: cadetblue;
+}

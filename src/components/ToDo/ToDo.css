@@ -1,0 +1,28 @@
+.todo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: space-between;
+    padding-right: 15px;
+    background-color: lightgray;
+    width: auto;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.todo-details-button {
+    width: 35px;
+    height: 25px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.todo-details-button:hover {
+    background-color: grey;
+}
+
+.todo-title {
+    margin: 0;
+}
