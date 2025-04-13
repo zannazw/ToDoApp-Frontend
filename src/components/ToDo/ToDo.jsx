@@ -1,11 +1,11 @@
 import "./ToDo.css"
 
-const ToDo = () => {
+const ToDo = ({todo}) => {
 
     return (
         <div className={"todo-container"}>
             <p className={"todo-title"}>
-                Hier bin ich
+                {todo.title}
             </p>
             <button className={"todo-details-button"}> ...</button>
         </div>

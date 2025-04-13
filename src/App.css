@@ -2,13 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: azure;
+    background-color: darkseagreen;
     width: auto;
     height: 80px;
 }
 
+.header-title {
+    font-family: "Zannas Font";
+}
+
 .add-button {
-    background-color: azure;
+    background-color: darkseagreen;
     width: 45px;
     height: 35px;
     border: 2px solid black;
@@ -17,4 +21,11 @@
 
 .add-button:hover {
     background-color: grey;
+}
+
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: darkseagreen;
 }

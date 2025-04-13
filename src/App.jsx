@@ -19,12 +19,14 @@ function App() {
     return (
         <>
             <div className={"header-container"}>
-                <h1>Meine To-Do Liste</h1>
+                <h1 className={"header-title"}>Meine To-Do Liste</h1>
                 <button className={"add-button"}>
                     +
                 </button>
             </div>
-            <ToDo/>
+            <div className={"todos-container"}>
+                {todos.map(todo => <ToDo todo={todo}/>)}
+            </div>
         </>
 
     )
